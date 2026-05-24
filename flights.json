@@ -1,0 +1,81 @@
+{
+    "bst": {
+        "123": {
+            "id": 123,
+            "name": "vistara",
+            "type": "Landing",
+            "priority": "Normal",
+            "emergency": "None",
+            "status": "Processed",
+            "entry_time": 1764373170.9143195,
+            "exit_time": 1764373231.602126,
+            "wait_minutes": 1.01
+        },
+        "196": {
+            "id": 196,
+            "name": "Indigo196",
+            "type": "Landing",
+            "priority": "Normal",
+            "emergency": "None",
+            "status": "Cancelled",
+            "entry_time": 1764373222.3288722,
+            "exit_time": 1764373462.781563,
+            "wait_minutes": 4.01
+        },
+        "121": {
+            "id": 121,
+            "name": "emirates121",
+            "type": "Landing",
+            "priority": "Emergency",
+            "emergency": "Fuel Low",
+            "status": "Processed",
+            "entry_time": 1764373310.9494643,
+            "exit_time": 1764373508.420269,
+            "wait_minutes": 3.29
+        },
+        "111": {
+            "id": 111,
+            "name": "air india",
+            "type": "Takeoff",
+            "priority": "Normal",
+            "emergency": "None",
+            "status": "Pending",
+            "entry_time": 1779609303.1029341,
+            "exit_time": null,
+            "wait_minutes": 0
+        },
+        "569": {
+            "id": 569,
+            "name": "Vistara569",
+            "type": "Landing",
+            "priority": "Normal",
+            "emergency": "None",
+            "status": "Pending",
+            "entry_time": 1779609323.384555,
+            "exit_time": null,
+            "wait_minutes": 0
+        },
+        "112": {
+            "id": 112,
+            "name": "air india2",
+            "type": "Landing",
+            "priority": "Emergency",
+            "emergency": "Engine Failure",
+            "status": "Processed",
+            "entry_time": 1779609401.6777408,
+            "exit_time": 1779609413.6681373,
+            "wait_minutes": 0.2
+        }
+    },
+    "normal_queue": [
+        111,
+        569
+    ],
+    "emergency_queue": [],
+    "history": [
+        123,
+        196,
+        121,
+        112
+    ]
+}
